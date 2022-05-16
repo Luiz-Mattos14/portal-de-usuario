@@ -7,7 +7,7 @@
 
 👉 [https://www.ademicon.com.br](https://www.ademicon.com.br)
 
-![PrintScreen](wp/wp-content/themes/ademicon/screenshot.png)
+![PrintScreen]![portal-usuario](https://user-images.githubusercontent.com/71785232/168508703-94e2dcb7-88da-4fa7-ae4c-19418c48bf33.png)
 
 ## Estrutura de arquivos e pastas do Tema
 

@@ -1,58 +1,43 @@
 
-# PROJETO SITE ADEMICON
-
-> Tema Wordpress da Ademicon
+# PROJETO PORTAL DE USUÁRIOS
 
 ## Projeto finalizado e em ambiente de produção
 
-👉 [https://www.ademicon.com.br](https://www.ademicon.com.br)
+👉 [https://devluizmattos.com/portal/](https://devluizmattos.com/portal/)
 
-![PrintScreen]![portal-usuario](https://user-images.githubusercontent.com/71785232/168508703-94e2dcb7-88da-4fa7-ae4c-19418c48bf33.png)
+![PrintScreen] ![portal-usuario](https://user-images.githubusercontent.com/71785232/168508853-6d171956-899b-4921-8b8a-1241f2813eca.png)
 
 ## Estrutura de arquivos e pastas do Tema
 
 ```bash
 .
 ├── assets
-│   ├── bootstrap-3.4.1
-│   ├── css
-│   │   ├── bootstrap.min.css
-│   │   ├── style.990.css
-│   │   ├── style.1400.css
-│   │   └── style.css
-│   ├── images
-│   └── js
-│       ├── jquery.mask.js
-│       ├── library.js
-│       ├── script-noindex.js
-│       └── script.js
-├── resources
-│   ├── admin.php
-│   ├── config.php
+│   ├── image
+│   └── script.js
+├── bower_components
+│   ├── bootstrap
+│   ├── font-awesome
 │   ├── elements.php
-│   ├── post-type.php
-│   └── weight.php
-├── footer.php
-├── functions.php
-├── header.php
-├── index.php 
-├── page-carreiras.php 
-├── page-home.php 
-├── page-lgpd.php 
-├── page-ouvidoria.php 
-├── page.php 
-└── style.css
+│   └── Ionicons
+├── classes
+│   └── Utils.js
+├── controller
+│   └── UserController.js
+├── dist
+│   ├── css
+│   ├── img
+│   └── js
+├── models
+│   └── User.js
+└── index.html
 ```
 
-## Instalação do Tema
+## Instalação do projeti
 
-* Rode o git clone na pasta 'wp-content\themes' do seu wordpress previamente instalado e repositório remoto configurado
-  **Git Clone** ▶️ `git clone`
-* Rode o sql que esta em 'wp\schema' em seu banco de dados previamente instalado
+* Rode o git clone no link https://github.com/Luiz-Mattos14/portal-de-usuario.git
 
 ### Requisitos do sistema
 
-* **[WordPress v5.6.2](https://wordpress.org/download/)** - ou superior, instalado em seu computador.
 * **[PHP v8.0.2](https://www.php.net/)** - versão mínima necessária v5.6.20, instalado em seu computador.
 * **[MySQL v5.6](https://www.mysql.com/)** ou **[MariaDB v10.1](https://mariadb.org/)** - instalado em seu computador.
 * **[Apache](https://httpd.apache.org/)** - instalado em seu computador.
